@@ -1,0 +1,50 @@
+{
+  "name": "parr",
+  "version": "0.0.0",
+  "description": "Turn an array into a string for easier, more versatile, printing and debugging",
+  "license": "MIT",
+  "repository": "abrelsfo/parr",
+  "author": {
+    "name": "abrelsfo",
+    "email": "alexbrelsford@gmail.com",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/abrelsfo/parr/issues"
+  },
+  "engines": {
+    "node": ">=5.7.0"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "ava": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "array",
+    "print",
+    "debugging",
+    "easy",
+    "versatile",
+    "for",
+    "string",
+    "Alex"
+  ],
+  "dependencies": {
+    "strip_character": "0.0.4",
+    "to-type": "^1.0.4"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "xo": "^0.12.1",
+    "eslint-config-xo-space": "^0.8.0"
+  },
+  "xo": {
+    "space": true,
+    "eslintConfig": {
+      "extends": "xo-space"
+    }
+  }
+}
